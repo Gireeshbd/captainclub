@@ -1,0 +1,35 @@
+.welcome-div1{
+    text-align: left;
+    margin-top: 0%;
+    width: 60%;
+    margin: 5%;
+    display: inline-block;
+
+    
+   
+}
+.welcome-div2{
+    width: 30%;
+    display: inline-block;
+    margin-top: 10%;
+    vertical-align: bottom;
+}
+
+.welcome-heading{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 6vw;
+}
+.welcome-heading1{
+    font-family: 'Poppins';
+    font-size: 6vw;
+    text-transform: uppercase;
+	background: linear-gradient(to right, #3FFF47 0%, #3FFFD1
+    100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}.welcome-text{
+    color: white;
+    font-size: 2vw;
+
+}

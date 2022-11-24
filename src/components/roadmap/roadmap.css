@@ -1,0 +1,41 @@
+.roadmap-heading{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+	background: linear-gradient(to right, #3FFF47 0%, #3FFFD1
+    100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-top: 10%;
+}.rectangular-div{
+    width: 100%;
+    height: 300px;
+    border: 3px solid;
+   
+    border-image: linear-gradient(to right, #3FFF47
+ , #3EF7D2
+ ) 1;
+
+}.main-div{
+    width: 25%;
+    vertical-align: top;
+    display: inline-block;
+    margin: 2.5%;
+    align-content: center;
+}.roadmap-text{
+    color: white;
+    font-size: 1.5vw;
+    padding: 5px;
+}
+.circular-div{
+    border: 3px solid;
+   width: 50px;
+   height: 50px;
+   border-image: linear-gradient(to right, #3FFF47
+ , #3EF7D2
+ ) 1; 
+ border-bottom: 0px;
+ border-radius: 50px;
+
+
+
+}
