@@ -35,7 +35,23 @@
  ) 1; 
  border-bottom: 0px;
  border-radius: 50px;
+}
 
-
-
+@media screen and (max-width: 786px){
+    .rectangular-div{
+        width:100%;
+        height: 100px;
+        
+    }
+    .circular-div{
+        width: 100%;
+    }
+    .main-div{
+        width: 60%;
+        
+    }
+    .roadmap-text{
+        font-size: 2.5vw;
+    }
+    
 }

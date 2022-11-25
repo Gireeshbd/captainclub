@@ -48,3 +48,9 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(168, 168, 168, 0
     margin-left: 7%;
     font-size: 0.9vw;
 }
+
+@media screen and (max-width: 786px){
+    .current-price-text{
+        font-size: 2vw;
+    }
+}
