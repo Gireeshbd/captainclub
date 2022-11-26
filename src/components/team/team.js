@@ -6,10 +6,10 @@ function Team(){
     <span className="team-span">
     <img src={require("./image2.png")} className="team-image"/>
     <span className="team-name">
-        <h3>
+        < h3 className="team-text">
             Anonmous
-        </h3>
-        <h5 >Developer</h5>
+        </ h3 >
+        <h5 className="team-text">Developer</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     
@@ -17,40 +17,40 @@ function Team(){
     <span className="team-span">
     <img src={require("./image2.png")} className="team-image"/>
     <span className="team-name">
-        <h3>
+        < h3 className="team-text">
             Anonmous
-        </h3>
-        <h5 >Developer</h5>
+        </ h3 >
+        <h5 className="team-text">Developer</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     </span>
     <span className="team-span">
     <img src={require("./image2.png")} className="team-image"/>
     <span className="team-name">
-        <h3>
+        < h3 className="team-text">
             Anonmous
-        </h3>
-        <h5 >Developer</h5>
+        </ h3>
+        <h5 className="team-text">Developer</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     </span><br/>
     <span className="team-span">
     <img src={require("./image2.png")} className="team-image"/>
     <span className="team-name">
-        <h3>
+        < h3 className="team-text">
             Anonmous
-        </h3>
-        <h5 >Developer</h5>
+        </ h3>
+        <h5 className="team-text">Developer</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     </span>
     <span className="team-span">
     <img src={require("./image2.png")} className="team-image"/>
     <span className="team-name">
-        <h3>
+        < h3 className="team-text">
             Anonmous
-        </h3>
-        <h5 >Developer</h5>
+        </ h3>
+        <h5 className="team-text">Developer</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     </span>
@@ -58,10 +58,10 @@ function Team(){
     <span className="team-span">
     <img src={require("./image2.png")} className="team-image"/>
     <span className="team-name">
-        <h3>
+        < h3 className="team-text">
             Anonmous
-        </h3>
-        <h5 >Developer</h5>
+        </ h3>
+        <h5 className="team-text">Developer</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     </span>

@@ -1,6 +1,7 @@
 .mint-container{
     width: 80%;
 height: auto;
+margin-left: 10%;
 background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(168, 168, 168, 0) 100%);
  border: 3px solid ;
  border-image: linear-gradient(to right, #3FFF47
@@ -48,9 +49,11 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(168, 168, 168, 0
     margin-left: 7%;
     font-size: 0.9vw;
 }
-
-@media screen and (max-width: 786px){
+@media screen and (max-width: 840px){
     .current-price-text{
         font-size: 2vw;
+    }.mint-container{
+        width: 90%;
+        margin-left: 5%;
     }
 }

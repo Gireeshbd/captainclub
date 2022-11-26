@@ -45,11 +45,13 @@ text-transform: capitalize;
 @media screen and (max-width: 786px){
     .part1{
         display: none;
-        width: 20%;
     }
     .part2{
         width: 90%;
         text-align: center;
         margin: 5%;
+        
+    }.about-heading{
+        margin-top: 10%;
     }
 }

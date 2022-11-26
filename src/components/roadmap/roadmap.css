@@ -36,22 +36,16 @@
  border-bottom: 0px;
  border-radius: 50px;
 }
-
-@media screen and (max-width: 786px){
-    .rectangular-div{
-        width:100%;
-        height: 100px;
-        
-    }
-    .circular-div{
-        width: 100%;
-    }
+@media screen and (max-width: 840px){
     .main-div{
-        width: 60%;
+        width: 90%;
+        margin-top: 10%;
         
+    }.roadmap-text{
+        font-size: 6vw;
+    }.rectangular-div{
+        height: auto;
+    }.roadmap-heading{
+        font-size: 8vw;
     }
-    .roadmap-text{
-        font-size: 2.5vw;
-    }
-    
 }

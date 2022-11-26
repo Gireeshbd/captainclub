@@ -7,6 +7,8 @@ import Faq from './components/faq/faq';
 import Roadmap from './components/roadmap/roadmap';
 import Onramper from './components/onramper/onramper';
 import About from './components/aboutus/aboutus';
+import Footer from './components/footer/footer';
+import Community from './components/community/community';
 function App() {
   return (
     <div className="App">
@@ -14,8 +16,10 @@ function App() {
       <Welcome/>
       <About/>
       <Roadmap />
+      <Community />
       <Team />
       <Faq/>
+      <Footer/>
     </div>
   );
 }

@@ -111,13 +111,10 @@
     #menu ul.sub-menus a {
       padding-left:0;
     }
-    #menu {
-      position: absolute;
-      top: -10px;
-    }
     .sl-container {
       float: left;
     }
+    
     .sl-logo {
       margin-left: 0;
     }

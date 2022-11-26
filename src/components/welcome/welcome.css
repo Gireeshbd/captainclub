@@ -3,7 +3,10 @@
     margin-top: 0%;
     width: 60%;
     margin: 5%;
-    display: inline-block;   
+    display: inline-block;
+
+    
+   
 }
 .welcome-div2{
     width: 30%;
@@ -30,17 +33,24 @@
     font-size: 2vw;
 
 }
-
-@media screen and (max-width: 786px){
-    .welcome-div1{
-        width:90%;
-        text-align: center;
-        margin-top: 10%;
-    }
+@media screen and (max-width: 840px){
     .welcome-div2{
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+        width: 100%;
+        float: right;
+        margin: 0px;
+        margin-bottom: 20%;
+        
+    }.welcome-div1{
+        width: 90%;
+        margin: 0%;
+    }
+    .welcome-div1{
+        margin-top: 20%;
+    }.welcome-text{
+        font-size: 3vw;
+    }.welcome-heading{
+        font-size: 8vw;
+    }.welcome-heading1{
+        font-size: 8vw;
     }
 }
