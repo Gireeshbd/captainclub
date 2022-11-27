@@ -19,7 +19,7 @@ function Mint(){
     }
     return(<>
     <div className="mint-container">
-        <img src={require("./image1.png")} className="mint-image" />
+        <img src={require("./image1.gif")} className="mint-image" />
         <h2>Launch Day</h2><br/>
         <Timer/><br/>
         <span className="mint-value">

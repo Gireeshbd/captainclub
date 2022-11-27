@@ -15,6 +15,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(168, 168, 168, 0
 }.mint-image{
     width: 146px;
     margin-top: 6%;
+    border-radius: 50%;
 
 }.value{
     color: white;
@@ -48,6 +49,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(168, 168, 168, 0
     float: left;
     margin-left: 7%;
     font-size: 0.9vw;
+    font-family: harmattan;
 }
 @media screen and (max-width: 840px){
     .current-price-text{

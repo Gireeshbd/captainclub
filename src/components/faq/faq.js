@@ -28,7 +28,7 @@ function Faq(){
         
 
 
-    return(<>
+    return(< >
     {/* <h1>FAQ's</h1>
     <div className="container">
       <h2>Frequently Asked Questions</h2>
@@ -100,7 +100,7 @@ function Faq(){
         </div>
       </div>
     </div> */}
-     <h1 className="faq-heading">FAQ's</h1>
+     <h1 className="faq-heading" id="faq">FAQ's</h1>
     <details open>
   <summary>FAQ 1</summary>
   <div class="faq__content">

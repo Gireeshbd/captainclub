@@ -4,7 +4,7 @@ import Mint from "./mint/mint.js";
 function Welcome(){
     return(
     <>
-    <div className="welcome-div1">
+    <div className="welcome-div1" id="home">
         <h1 className="welcome-heading">
             WELCOME TO 
         </h1>

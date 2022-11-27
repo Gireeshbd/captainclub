@@ -4,34 +4,58 @@ import { Link } from "react-router-dom";
 import './navbar.css';
 import Connect from './connectbutton';
 export default function Navbar() {
+  const about=()=>{
+    let ele=document.getElementById("about")
+        if (ele!=null) {
+            console.log(ele)
+            ele.scrollIntoView({block: "center", inline: "center"})
+        }
+  }
+  const faq=()=>{
+    let ele=document.getElementById("faq")
+        if (ele!=null) {
+            console.log(ele)
+            ele.scrollIntoView({block: "center", inline: "center"})
+        }
+  }
+  const team=()=>{
+    let ele=document.getElementById("team")
+        if (ele!=null) {
+            console.log(ele)
+            ele.scrollIntoView({block: "center", inline: "center"})
+        }
+  }
+  const home=()=>{
+    let ele=document.getElementById("home")
+        if (ele!=null) {
+            console.log(ele)
+            ele.scrollIntoView({block: "center", inline: "center"})
+        }
+  }
     return (
         <>
         <div>
     <nav id="menu">
       <input type="checkbox" id="responsive-menu" /><label></label>
-      {/* <span className="sl-container"
-        ><img style="" className="sl-logo" src="@/assets/sl-logo.png" alt="" /><img
-          style=""
-          className="sl-text"
-          src="@/assets/sl-text.png"
-      /></span> */}
+       <span className="sl-container"
+        ><img  className="sl-logo" src={require('./logo.png')} alt="" /></span> 
       <ul>
       <Connect />
       <li>
-        <a>Faq</a>
+        <a onClick={faq}>Faq</a>
         </li>
         <li>
-        <a>Team</a>
+        <a onClick={team}>Team</a>
         </li>
         <li>
         <a>Mint</a>
         </li>
         <li>
        
-        <a>About Us</a>
+        <a onClick={about}>About Us</a>
         </li>
         <li>
-           <a>Home</a>
+           <a onClick={home}>Home</a>
            
         </li>
         

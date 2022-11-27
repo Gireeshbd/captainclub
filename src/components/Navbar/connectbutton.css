@@ -12,4 +12,8 @@ font-family: "Inter";
   float: right;
   margin-right: 10%;
   margin-top: 1%;
+}@media screen and (max-width: 840px){
+    .connect-button{
+        float: none;
+    }
 }
