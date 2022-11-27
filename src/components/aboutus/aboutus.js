@@ -7,7 +7,7 @@ const About=()=>{
         <br/>  
         <div className='part1' id='about'>
         <div className='img1'><img src={require('./image2.gif')} className='allimg1'/><img src={require('./image3.gif')} className='allimg1'/></div>
-        <div className='img2'><img src={require('./image1.gif') } className='allimg' /></div>
+        <div className='img2'><img src={require('./image1.gif') } className='allimg' /><img src={require('./image4.gif') } className='allimg' /></div>
         
         </div>
        

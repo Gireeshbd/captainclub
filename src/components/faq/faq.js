@@ -102,21 +102,43 @@ function Faq(){
     </div> */}
      <h1 className="faq-heading" id="faq">FAQ's</h1>
     <details open>
-  <summary>FAQ 1</summary>
+  <summary> What is ALT Space Captains NFT?</summary>
   <div class="faq__content">
-    <p>Answer 1</p>
+    <p>It is 1 of unique 9,999 NFTs on the Polygon blockchain that will have future utilities for Web3 Builders.</p>
   </div>
 </details>
 <details>
-  <summary>FAQ 2</summary>
+  <summary>What is the story or ALT Space?</summary>
   <div class="faq__content">
-    <p>Answer 2</p>
+    <p>ALT Space is a parallel universe that has unique characters called Captains, Champs, Cartoons and more. You can unlock characters by minting them, and start collaborating for your Web3 initiatives in multiple ways.</p>
   </div>
 </details>
 <details>
-  <summary>FAQ 3</summary>
+  <summary> How do I mint?</summary>
   <div class="faq__content">
-    <p>Answer 3</p>
+    <p>Download the metamask.io extension for the Chrome/Brave browser or app on mobile. This will allow you to make purchases with MATIC and can be found in the extensions tab. You can purchase MATIC through the Metamask Wallet using Onramper.</p>
+  </div>
+  
+</details>
+<details>
+<summary> What type of wallet do I need to mint this NFT?</summary>
+  <div class="faq__content">
+    <p>One of the most common wallets that is compatible with Polygon MATIC is MetaMask.</p>
+  </div>
+</details>
+<details>
+  <summary>Where we can buy and sell NFTs?</summary>
+  <div class="faq__content">
+    <p>ALT Space is a parallel universe that has unique characters called Captains, Champs, Cartoons and more. You can unlock characters by minting them, and start collaborating for your Web3 initiatives in multiple ways.</p>
+  </div>
+</details>
+<details>
+  <summary> Who is behind ALT Space?</summary>
+  <div class="faq__content">
+    <p>The ALT Space is founded by Seshu along with its investor T.N.Rao. Dhanush and Gireesh are our young & dynamic souls taking charge of design & development, while Sachin and Kiran handle the last mile.
+</p>
+<p>Seshu is an alumnus of University of Texas at Dallas, and Stanford Graduate School of Business. He is a parallel entrepreneur who is bullish about technology and works primarily on Marketing-tech, Edu-tech, and Web 3.0.
+</p>
   </div>
 </details>
     </>)

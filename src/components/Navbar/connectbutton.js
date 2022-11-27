@@ -33,7 +33,23 @@ export default function Connect() {
           const account=web3.eth.getAccounts()
           account.then((result)=>{
               console.log(result[0])
+              if (result[0] != null) {
+                let nim = result[0].split("");
+                var acc =
+                  nim[0] +
+                  nim[1] +
+                  nim[2] +
+                  nim[3] +
+                  "..." +
+                  nim[37] +
+                  nim[38] +
+                  nim[39] +
+                  nim[40] +
+                  nim[41];
+                  settext(acc)
+              }
           })
+
           return provider
     }
     return (
@@ -41,7 +57,7 @@ export default function Connect() {
         <button
         className='connect-button'
         onClick={connect}
-        >   Connect Wallet
+        >   {buttontext}
         </button>
         </div>
     )

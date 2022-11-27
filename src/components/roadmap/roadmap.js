@@ -10,8 +10,13 @@ function Roadmap(){
 <h1>1</h1>
 </div>
 <div className="rectangular-div">
-<p className="roadmap-text">Launching the Captain NFT collection and making it live on polygon network
-</p>
+<p className="roadmap-text">Website Development</p>
+<p className="roadmap-text">Create NFT Collection
+Private Sale Open</p>
+<p className="roadmap-text">Mint NFTs</p>
+<p className="roadmap-text">Build Community</p>
+
+
 </div>
     </div>
     <div className="main-div">
@@ -19,9 +24,9 @@ function Roadmap(){
 <h1>2</h1>
 </div>
 <div className="rectangular-div">
-<p className="roadmap-text">Adding utility to the community by adding developers, designers, and many other, making hiring easier for managers Make better decisions
-
-</p>
+<p className="roadmap-text">Marketplace Listings</p>
+<p className="roadmap-text">Airdrop NFTs of New Collections</p>
+<p className="roadmap-text">Exclusive Portal for Collaboration</p>
 </div>
     </div>
     <div className="main-div">
@@ -29,9 +34,10 @@ function Roadmap(){
 <h1>3</h1>
 </div>
 <div className="rectangular-div">
-<p className="roadmap-text">Launching other Set of NFTs, to make utility for all the internet users
-
-</p>
+<p className="roadmap-text">NFT Staking</p>
+<p className="roadmap-text">NFT Pasive incomes</p>
+<p className="roadmap-text">New Utilities for NFT holders</p>
+<p className="roadmap-text">Interact in Metaverse</p>
 </div>
     </div>
     

@@ -1,10 +1,12 @@
 .sl-container {
     margin-top: 0px;
+    
   }
   .sl-logo {
     margin-top: 0px;
     float: left;
-    margin-left: 1%;
+    margin-left: 3%;
+    width: 40px;
   }
   .sl-text {
     float: left;
@@ -108,6 +110,7 @@
       width: 100%;
       position: static;
       background-color: transparent;
+      
     }
     #menu ul.sub-menus a {
       padding-left:0;
@@ -126,7 +129,7 @@
     #menu ul {
       background: black;
       position: absolute;
-      top: 10px;
+      top: 40px;
       right: 0;
       left: 0%;
       width: 100%;

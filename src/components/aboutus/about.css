@@ -41,8 +41,10 @@ text-transform: capitalize;
     width: 100%;
 }
 .allimg{
+    margin: 13%;
+    margin-top: 0;
     width: 100%;
-    margin-left: 0%;
+    margin-left: 0;
 }
 @media screen and (max-width: 786px){
     .part1{

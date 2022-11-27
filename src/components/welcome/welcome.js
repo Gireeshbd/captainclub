@@ -6,13 +6,11 @@ function Welcome(){
     <>
     <div className="welcome-div1" id="home">
         <h1 className="welcome-heading">
-            WELCOME TO 
+        Enter ALT Space 
         </h1>
-        <h1 className="welcome-heading1">CAPTAIN CLUB</h1>
+        <h1 className="welcome-heading1">as Captains</h1>
         <h4 className="welcome-text">
-        Captain club is one of the major collection in the
- ALT SPACE community with the highest power than 
-the rest of the collections
+        ALT Space Captains collection is made up of 9,999 randomly generated NFTs that exist on the Polygon blockchain. The holders of ALT Space Captains NFTs can participate in an exclusive forum that brings together Web3 builders under 1 roof. Keep in mind that all Captains have caps, and that's what makes them different from everyone else in ALT Space.
 
         </h4>
     </div>
