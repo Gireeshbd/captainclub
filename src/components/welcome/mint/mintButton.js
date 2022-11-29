@@ -49,7 +49,7 @@ export function MintButton({value}){
                     let txTransfer = {
                       from: result[0],
                       to: contractAddress,
-                      
+                      gas: web3.utils.toHex(0.00500 * 1e9),
                       // maxFeePerGas:web3.utils.toHex(web3.utils.toHex( web3.utils.toWei( '1.5' , 'gwei' ) ),),
                      value:value*1*10e17,
                       data: contractInstance.methods.mint(mintValue).encodeABI()

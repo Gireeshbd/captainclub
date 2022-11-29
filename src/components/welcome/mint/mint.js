@@ -7,7 +7,7 @@ function Mint(){
     const [value,setvalue]=useState(1)
     const [launchText , setLaunchText] =  useState("Launch Day-30 Nov 2022")
     const add=()=>{
-        if (value<5) {
+        if (value<10) {
             setvalue(value+1)
         }
       
