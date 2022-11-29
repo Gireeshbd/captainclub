@@ -141,6 +141,13 @@ function Faq(){
 </p>
   </div>
 </details>
+<details>
+  <summary> Why is Transaction failing?</summary>
+  <div class="faq__content">
+<p><a href="https://metamask.zendesk.com/hc/en-us/articles/4402538041869-Error-ethjs-query-while-formatting-outputs-from-RPC-transaction-underpriced-error-" target="_blank">Follow this link</a>
+</p>
+  </div>
+</details>
     </>)
 } 
 export default Faq
