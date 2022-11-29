@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import './navbar.css';
 import Connect from './connectbutton';
+import Onramper from '../onramper/onramper';
 export default function Navbar() {
   const about=()=>{
     let ele=document.getElementById("about")
@@ -41,6 +42,7 @@ export default function Navbar() {
         ><img  className="sl-logo" src={require('./logo.png')} alt="" /></span> 
       <ul>
       <Connect />
+        <Onramper />
       <li>
         <a onClick={faq}>Faq</a>
         </li>
@@ -56,7 +58,6 @@ export default function Navbar() {
         </li>
         <li>
            <a onClick={home}>Home</a>
-           
         </li>
         
       </ul>

@@ -4,7 +4,7 @@ function Team(){
     return(<div className="team" id="team">
     <h1 className="team-heading">Meet our Team</h1>
     <span className="team-span">
-    <img src={require("./image2.png")} className="team-image"/>
+    <img src={require("./image1.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
             Anonmous
@@ -25,7 +25,7 @@ function Team(){
     </span>
     </span>
     <span className="team-span">
-    <img src={require("./image2.png")} className="team-image"/>
+    <img src={require("./image3.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
             Anonmous
@@ -35,7 +35,7 @@ function Team(){
     </span>
     </span><br/>
     <span className="team-span">
-    <img src={require("./image2.png")} className="team-image"/>
+    <img src={require("./image5.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
             Anonmous
@@ -45,7 +45,7 @@ function Team(){
     </span>
     </span>
     <span className="team-span">
-    <img src={require("./image2.png")} className="team-image"/>
+    <img src={require("./imag4.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
             Anonmous
@@ -56,7 +56,7 @@ function Team(){
     </span>
 
     <span className="team-span">
-    <img src={require("./image2.png")} className="team-image"/>
+    <img src={require("./image7.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
             Anonmous

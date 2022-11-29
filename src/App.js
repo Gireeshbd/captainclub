@@ -20,6 +20,7 @@ function App() {
       <Team />
       <Faq/>
       <Footer/>
+      
     </div>
   );
 }

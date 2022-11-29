@@ -5,6 +5,7 @@ import { MintButton } from "./mintButton";
 import Timer from "./timer";
 function Mint(){
     const [value,setvalue]=useState(1)
+    const [launchText , setLaunchText] =  useState("Launch Day-30 Nov 2022")
     const add=()=>{
         if (value<5) {
             setvalue(value+1)
@@ -20,15 +21,16 @@ function Mint(){
     return(<>
     <div className="mint-container">
         <img src={require("./image1.gif")} className="mint-image" />
-        <h2>Launch Day</h2><br/>
-        <Timer/><br/>
+        <h4>{launchText}</h4>
+        <br/>
+        <Timer setLaunchText={setLaunchText}/><br/>
         <span className="mint-value">
             <button onClick={minus} className="value-button">-</button>
-            <p className="value">{value}</p>
+            <p className="value" id="mintValue">{value}</p>
             <button onClick={add} className="value-button">+</button>
         </span><br/>
-        <h5 className="current-price-text">Current-Price-0.03ETH</h5>
-        <MintButton />
+        <h5 className="current-price-text">Current-Price=15MATIC</h5>
+        <MintButton value={value} />
         {/* <Onramper/> */}
     </div>
     </>)

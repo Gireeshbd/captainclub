@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import './timer.css'
-function Timer(){
+function Timer({setLaunchText}){
     const [hour,sethour]=useState(0)
     const [second,setsecond]=useState(0)
     const [minute,setminute]=useState(0)
     const [day,setday]=useState(0)
+    const [live , setLive] = useState(false)
     useEffect(()=>{
-        let countDownDate = new Date("Sep 5, 2023 20:00:00").getTime();
+        let countDownDate = new Date("Nov 30, 2022 08:00:00").getTime();
     setInterval(() => {
       var now = new Date().getTime();
       // Find the distance between now and the count down date
@@ -26,13 +27,20 @@ function Timer(){
       //
       // If the count down is over, write some text
       if (distance < 0) {
-        countDownDate += 3600000 * Math.abs(Math.round(distance / 3600000) - 1);
+        // countDownDate += 3600000 * Math.abs(Math.round(distance / 3600000) - 1);
+        setLaunchText("Mint is Live")
+        setLive(true)
+        
+        
       }
     }, 1000);
     })
     
-    return(<>
+    return(< >
+   {!live && 
+    <div id="countdown">
 
+    
     <div className="countdown-day">
         <h3  className="countdown-text">{day}</h3>
         <h6 className="countdown-text">Days</h6>
@@ -49,6 +57,7 @@ function Timer(){
         <h3 className="countdown-text">{second}</h3>
         <h6 className="countdown-text">Seconds</h6>
       </div>
+      </div>}
     </>)
 }
 

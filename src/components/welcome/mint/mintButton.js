@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './mintButton.css'
 import {abi,contractAddress} from '../constants.js'
-import Connect from "../../Navbar/connectbutton";
+
 import Web3 from "web3";
 import Web3Modal from "web3modal";
-export function MintButton(){
-    const mint=async()=>{
+
+export function MintButton({value}){
+    var mintValue=value
+    useEffect(() =>{
+        console.log("-------1")
+    },[])
+    const MintNow=async()=>{
         console.log(abi)
+        
         console.log(contractAddress)
-       
+       console.log(mintValue)
         const WalletConnectProvider = window.WalletConnectProvider.default;
         let providerOptions = {
             walletconnect: {
@@ -19,7 +25,6 @@ export function MintButton(){
                 chainId:56,
                 rpc: {
                   // 1: "https://mainnet.infura.io/v3/b50bee145172497d9576a6f79b1209aa",
-                  56: "https://bsc-dataseed.binance.org",
                 },
               }
             },
@@ -36,28 +41,39 @@ export function MintButton(){
           const account=web3.eth.getAccounts()
           account.then((result)=>{
               console.log(result[0])
-              const contractInstance= new web3.eth.Contract(abi,contractAddress)
-              let txTransfer = {
-                from: result[0],
-                to: contractAddress,
+              const balance=web3.eth.getChainId()
+              
+              balance.then((r)=>{
+                  if (r==137) {
+                    const contractInstance= new web3.eth.Contract(abi,contractAddress)
+                    let txTransfer = {
+                      from: result[0],
+                      to: contractAddress,
+                      
+                      // maxFeePerGas:web3.utils.toHex(web3.utils.toHex( web3.utils.toWei( '1.5' , 'gwei' ) ),),
+                     value:value*1*10e17,
+                      data: contractInstance.methods.mint(mintValue).encodeABI()
+                  }
+                  
+                  let approve=web3.eth.sendTransaction(txTransfer);
+                  approve.then((result)=>{
+                      console.log(result)
+                  }).catch((e)=>{
+                      console.error(e)
+                  })     
+                  }
+                  else{
+                      alert("Please connect to polygon chain")
+                  }
+                   
                 
-                
-                // maxFeePerGas:web3.utils.toHex(web3.utils.toHex( web3.utils.toWei( '1.5' , 'gwei' ) ),),
-               value:"100000000000000000",
-                data: contractInstance.methods.mint(5).encodeABI()
-            }
-            let approve=web3.eth.sendTransaction(txTransfer);
-            approve.then((result)=>{
-                console.log(result)
-            }).catch((e)=>{
-                console.error(e)
-            })   
+              })
             })
             
     }
     return(<>
     
-    <button className="mint-button" onClick={mint}>
+    <button className="mint-button" onClick={MintNow}>
         Mint Now
     </button>
     </>)
