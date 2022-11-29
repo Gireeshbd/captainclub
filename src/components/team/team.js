@@ -7,9 +7,9 @@ function Team(){
     <img src={require("./image1.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
-            Anonmous
+        Seshu Karthick
         </ h3 >
-        <h5 className="team-text">Developer</h5>
+        <h5 className="team-text">Founder</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     
@@ -18,9 +18,9 @@ function Team(){
     <img src={require("./image2.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
-            Anonmous
+        T.N.Rao
         </ h3 >
-        <h5 className="team-text">Developer</h5>
+        <h5 className="team-text">Investor</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     </span>
@@ -28,7 +28,7 @@ function Team(){
     <img src={require("./image3.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
-            Anonmous
+        Gireesh
         </ h3>
         <h5 className="team-text">Developer</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
@@ -38,9 +38,10 @@ function Team(){
     <img src={require("./image5.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
-            Anonmous
+        Dhanush Waran
         </ h3>
-        <h5 className="team-text">Developer</h5>
+        <h5 className="team-text">Designer
+</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     </span>
@@ -48,9 +49,10 @@ function Team(){
     <img src={require("./imag4.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
-            Anonmous
+        Sachin
         </ h3>
-        <h5 className="team-text">Developer</h5>
+        <h5 className="team-text">Comm. Cod </h5>
+      
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     </span>
@@ -59,9 +61,9 @@ function Team(){
     <img src={require("./image7.png")} className="team-image"/>
     <span className="team-name">
         < h3 className="team-text">
-            Anonmous
+        Kiran
         </ h3>
-        <h5 className="team-text">Developer</h5>
+        <h5 className="team-text">Web3 Mar.</h5>
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
     </span>

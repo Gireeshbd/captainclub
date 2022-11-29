@@ -2,11 +2,10 @@
     display: inline-block;
     width: 25%;
     margin: 2.5%;
-    
+    text-align: right;
 }.team{
     margin-top: 5%;
 }.team-heading{
-   
     text-transform: uppercase;
     margin-bottom: 4%;
 	background: linear-gradient(to right, #3FFF47 0%, #3FFFD1
@@ -21,6 +20,10 @@
  border-image: linear-gradient(to right, #3FFF47
  , #3EF7D2
  ) 1;
+}
+.team-text{
+    font-size: 1.5vw;
+    margin-left: 10%;
 }.team-name{
     float: right;
     text-align: left;
@@ -28,7 +31,7 @@
 
 }.linkedin-logo{
     cursor: pointer;
-
+    margin-left: 10%;
 
 }@media screen and (max-width: 840px){
     .team-text{
