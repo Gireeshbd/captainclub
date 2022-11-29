@@ -1,20 +1,18 @@
 import React, { useEffect } from "react";
 import './mintButton.css'
 import {abi,contractAddress} from '../constants.js'
-
+import './data.env'
 import Web3 from "web3";
 import Web3Modal from "web3modal";
 
 export function MintButton({value}){
     var mintValue=value
-    useEffect(() =>{
-        console.log("-------1")
-    },[])
     const MintNow=async()=>{
         console.log(abi)
         
         console.log(contractAddress)
        console.log(mintValue)
+      
         const WalletConnectProvider = window.WalletConnectProvider.default;
         let providerOptions = {
             walletconnect: {
@@ -22,9 +20,9 @@ export function MintButton({value}){
               options: {
                 infuraId: "b50bee145172497d9576a6f79b1209aa",
                 //infuraId:'JuKirzHWDP97kprdQEkmzv0X7J8mz64emhs4Os70',
-                chainId:56,
+                chainId:137,
                 rpc: {
-                  // 1: "https://mainnet.infura.io/v3/b50bee145172497d9576a6f79b1209aa",
+                   1: "https://mainnet.infura.io/v3/b50bee145172497d9576a6f79b1209aa",
                 },
               }
             },
@@ -36,8 +34,8 @@ export function MintButton({value}){
              providerOptions// required
           });
           
-          const provider = await web3Modal.connect();
-          const web3 = new Web3(provider);
+        //   const provider = await web3Modal.connect();
+          const web3 =new Web3(window.ethereum);
           const account=web3.eth.getAccounts()
           account.then((result)=>{
               console.log(result[0])
@@ -49,7 +47,8 @@ export function MintButton({value}){
                     let txTransfer = {
                       from: result[0],
                       to: contractAddress,
-                      // maxFeePerGas:web3.utils.toHex(web3.utils.toHex( web3.utils.toWei( '1.5' , 'gwei' ) ),),
+                     gas: web3.utils.toHex(web3.utils.toWei( '.28' , 'gwei' )),
+                      maxFeePerGas:web3.utils.toHex(web3.utils.toHex( web3.utils.toWei( '1.8' , 'gwei' ) ),),
                      value:value*1*10e17,
                       data: contractInstance.methods.mint(mintValue).encodeABI()
                   }
