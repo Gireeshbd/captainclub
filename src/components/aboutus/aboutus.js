@@ -12,11 +12,11 @@ const About=()=>{
         </div>
        
         <div className="part2">
-        <p>Captain club is a collection of 9999 randomly generated
-            NFTs, living on the polygon network, each NFT gives the
-            exclusive access to the club members from setting up a company 
-            to hiring up a team,The only NFT for all your Web3 needs, to 
-            launch your web3 venture
+        <p>The holders of ALT Space Captains NFTs can participate in an exclusive forum that is designed to connect Web3 builders from all around the globe. This is a great opportunity to network and collaborate with others who are passionate about the same things that you are!</p>
+
+<p>Whether you manage a Web3 product, a service startup, a blockchain company, or a de-fi solution, you can grab our Captains NFT to engage with similar players in the ALT Space.</p>
+
+<p>Doing so will allow you to discuss commonalities and learn from one another in order to continue driving the industry forward!
 </p></div>
    
 </>
