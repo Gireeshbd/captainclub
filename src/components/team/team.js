@@ -51,7 +51,7 @@ function Team(){
         < h3 className="team-text">
         Sachin
         </ h3>
-        <h5 className="team-text">Comm. Cod </h5>
+        <h5 className="team-text">Commu coo. </h5>
       
         <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
     </span>
