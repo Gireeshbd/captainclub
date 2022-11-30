@@ -24,6 +24,7 @@
 .team-text{
     font-size: 1vw;
     margin-left: -10%;
+    font-weight: 600;
 }.team-name{
     float: right;
     text-align: left;

@@ -10,7 +10,7 @@ function Team(){
         Seshu Karthick
         </ h3 >
         <h5 className="team-text">Founder</h5>
-        <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
+        <a href="https://www.linkedin.com/in/seshukarthick/" target="_blank"><img src={require('./linkedinlogo.png')} className="linkedin-logo"/></a>
     </span>
     
     </span>
@@ -31,7 +31,8 @@ function Team(){
         Gireesh
         </ h3>
         <h5 className="team-text">Developer</h5>
-        <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
+        <a href="https://www.linkedin.com/in/gireeshredy
+" target="_blank"><img src={require('./linkedinlogo.png')} className="linkedin-logo"/></a>
     </span>
     </span><br/>
     <span className="team-span">
@@ -53,7 +54,7 @@ function Team(){
         </ h3>
         <h5 className="team-text">Commu coo. </h5>
       
-        <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
+        <a href="https://www.linkedin.com/in/sachin-s-5724841b4/" target="_blank"><img src={require('./linkedinlogo.png')} className="linkedin-logo"/></a>
     </span>
     </span>
 
@@ -64,7 +65,7 @@ function Team(){
         Kiran
         </ h3>
         <h5 className="team-text">Web3 Mar.</h5>
-        <img src={require('./linkedinlogo.png')} className="linkedin-logo"/>
+        <a href="https://www.linkedin.com/in/kirangowtham/" target="_blank"><img src={require('./linkedinlogo.png')} className="linkedin-logo"/></a>
     </span>
     </span>
     
