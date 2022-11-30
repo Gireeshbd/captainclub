@@ -2,19 +2,10 @@ import React, { useState } from 'react'
 import './connectbutton.css'
 import Web3 from 'web3'
 import Web3Modal from "web3modal";
-import { useWeb3React } from '@web3-react/core';
-import { injected } from '../wallet/connectors';
+
 export default function Connect() {
-    const{active, activate,deactivate,library,account}=useWeb3React()
+    
     const[buttontext,settext]=useState("Connect Wallet")
-    async function connect2(){
-        try {
-            await activate(injected)
-            console.log(account)
-        } catch (e) {
-            console.log(e)
-        }
-    }
        const connect=async()=>{
          
         const WalletConnectProvider = window.WalletConnectProvider.default;
