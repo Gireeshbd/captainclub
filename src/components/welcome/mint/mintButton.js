@@ -47,6 +47,7 @@ export function MintButton({value}){
                     let txTransfer = {
                       from: result[0],
                       to: contractAddress,
+                         maxPriorityFeePerGas:'250000000000',
                      gas: web3.utils.toHex(web3.utils.toWei( '.028' , 'gwei' )),
                       maxFeePerGas:web3.utils.toHex(web3.utils.toHex( web3.utils.toWei( '35' , 'gwei' ) ),),
                      value:value*1*10e17,
