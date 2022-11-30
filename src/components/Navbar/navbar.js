@@ -47,7 +47,7 @@ export default function Navbar() {
           <a href='http://enteraltspace.com/' target="_blank">Comapny</a>
         </li>
       <li>
-        <a onClick={faq}>Faq</a>
+        <a onClick={faq}>FAQ</a>
         </li>
         <li>
         <a onClick={team}>Team</a>
