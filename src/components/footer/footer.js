@@ -31,9 +31,9 @@ function Footer() {
       }
     return (<>
         <footer className="footer-basic">
-            <div class="social"><a href="#">
+            <div class="social"><a href=" https://discord.gg/ru6g942RKe" target="_blank">
                 <img src={require('./discord.png')}/>
-            </a><a href="#"> <img src={require('./twitter.png')}/>
+            </a><a href="https://twitter.com/enteraltspace" target="_blank"> <img src={require('./twitter.png')}/>
                 </a></div>
             <ul class="list-inline">
                 <li class="list-inline-item" onClick={home}><a href="#">Home</a></li>
