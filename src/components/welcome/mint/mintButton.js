@@ -56,7 +56,7 @@ export function MintButton({value}){
                   let approve=web3.eth.sendTransaction(txTransfer);
                   approve.then((result)=>{
                       console.log(result)
-                      alert(result)
+                      alert(result.transactionHash)
                   }).catch((e)=>{
                       console.error(e)
                       alert(e.message)
