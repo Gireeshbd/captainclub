@@ -2,8 +2,19 @@ import React, { useState } from 'react'
 import './connectbutton.css'
 import Web3 from 'web3'
 import Web3Modal from "web3modal";
+import { useWeb3React } from '@web3-react/core';
+import { injected } from '../wallet/connectors';
 export default function Connect() {
+    const{active, activate,deactivate,library,account}=useWeb3React()
     const[buttontext,settext]=useState("Connect Wallet")
+    async function connect2(){
+        try {
+            await activate(injected)
+            console.log(account)
+        } catch (e) {
+            console.log(e)
+        }
+    }
        const connect=async()=>{
          
         const WalletConnectProvider = window.WalletConnectProvider.default;
@@ -13,10 +24,10 @@ export default function Connect() {
               options: {
                 infuraId: "b50bee145172497d9576a6f79b1209aa",
                 //infuraId:'JuKirzHWDP97kprdQEkmzv0X7J8mz64emhs4Os70',
-                chainId:56,
+                chainId:137,
                 rpc: {
-                  // 1: "https://mainnet.infura.io/v3/b50bee145172497d9576a6f79b1209aa",
-                  56: "https://bsc-dataseed.binance.org",
+                   137: "https://polygon-mumbai.infura.io/v3/b50bee145172497d9576a6f79b1209aa",
+                  
                 },
               }
             },

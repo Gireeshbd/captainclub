@@ -7,7 +7,7 @@ function Timer({setLaunchText}){
     const [day,setday]=useState(0)
     const [live , setLive] = useState(false)
     useEffect(()=>{
-        let countDownDate = new Date("Nov 30, 2022 08:00:00").getTime();
+        let countDownDate = new Date("Nov 30, 2022 10:30:00").getTime();
     setInterval(() => {
       var now = new Date().getTime();
       // Find the distance between now and the count down date

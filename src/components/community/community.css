@@ -13,6 +13,7 @@
     background: linear-gradient(89.94deg, #3FFF47 0.04%, #3FFFD1 175.49%);
 border-radius: 5px;
 padding: 1%;
+border: 0;
 
 }@media screen and (max-width: 840px){
     .community-div1{

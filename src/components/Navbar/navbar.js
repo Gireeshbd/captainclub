@@ -43,6 +43,9 @@ export default function Navbar() {
       <ul>
       <Connect />
         <Onramper />
+        <li>
+          <a href='http://enteraltspace.com/' target="_blank">Comapny</a>
+        </li>
       <li>
         <a onClick={faq}>Faq</a>
         </li>

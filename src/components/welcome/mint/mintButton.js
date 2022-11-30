@@ -47,8 +47,8 @@ export function MintButton({value}){
                     let txTransfer = {
                       from: result[0],
                       to: contractAddress,
-                     gas: web3.utils.toHex(web3.utils.toWei( '.28' , 'gwei' )),
-                      maxFeePerGas:web3.utils.toHex(web3.utils.toHex( web3.utils.toWei( '1.8' , 'gwei' ) ),),
+                     gas: web3.utils.toHex(web3.utils.toWei( '.028' , 'gwei' )),
+                      maxFeePerGas:web3.utils.toHex(web3.utils.toHex( web3.utils.toWei( '35' , 'gwei' ) ),),
                      value:value*1*10e17,
                       data: contractInstance.methods.mint(mintValue).encodeABI()
                   }
@@ -56,8 +56,10 @@ export function MintButton({value}){
                   let approve=web3.eth.sendTransaction(txTransfer);
                   approve.then((result)=>{
                       console.log(result)
+                      alert(result)
                   }).catch((e)=>{
                       console.error(e)
+                      alert(e.message)
                   })     
                   }
                   else{
