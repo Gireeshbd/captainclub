@@ -34,8 +34,8 @@ export function MintButton({value}){
              providerOptions// required
           });
           
-        //   const provider = await web3Modal.connect();
-          const web3 =new Web3(window.ethereum);
+           const provider = await web3Modal.connect();
+          const web3 =new Web3(provider);
           const account=web3.eth.getAccounts()
           account.then((result)=>{
               console.log(result[0])

@@ -21,7 +21,7 @@ function Team(){
         T.N.Rao
         </ h3 >
         <h5 className="team-text">Investor</h5>
-        <a href="https://www.linkedin.com/" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/></a>
+        <a href="#" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/></a>
     </span>
     </span>
     <span className="team-span">
@@ -43,7 +43,7 @@ function Team(){
         </ h3>
         <h5 className="team-text">Designer
 </h5>
-<a href="https://www.linkedin.com" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/> </a>
+<a href="#" target="_blank"><img src={require('./linkedinlogo.png?auto=compress')} className="linkedin-logo"/> </a>
     </span>
     </span>
     <span className="team-span">

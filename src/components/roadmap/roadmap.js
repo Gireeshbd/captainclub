@@ -35,7 +35,7 @@ function Roadmap(){
 </div>
 <div className="rectangular-div">
 <p className="roadmap-text">NFT Staking</p>
-<p className="roadmap-text">NFT Pasive incomes</p>
+<p className="roadmap-text">NFT Passive incomes</p>
 <p className="roadmap-text">New Utilities for NFT holders</p>
 <p className="roadmap-text">Interact in Metaverse</p>
 </div>
