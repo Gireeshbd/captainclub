@@ -129,7 +129,7 @@ function Faq(){
 <details>
   <summary>Where we can buy and sell NFTs?</summary>
   <div class="faq__content">
-    <p>ALT Space is a parallel universe that has unique characters called Captains, Champs, Cartoons and more. You can unlock characters by minting them, and start collaborating for your Web3 initiatives in multiple ways.</p>
+    <p>You can mint an ALT Space NFT from this website or purchase it from our verified collections on secondary marketplaces.</p>
   </div>
 </details>
 <details>

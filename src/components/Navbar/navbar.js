@@ -44,10 +44,10 @@ export default function Navbar() {
       <Connect />
         <Onramper />
         <li>
-          <a href='http://enteraltspace.com/' target="_blank">Comapny</a>
+          <a href='http://enteraltspace.com/' target="_blank">Company</a>
         </li>
       <li>
-        <a onClick={faq}>FAQ</a>
+        <a onClick={faq}>Faq</a>
         </li>
         <li>
         <a onClick={team}>Team</a>

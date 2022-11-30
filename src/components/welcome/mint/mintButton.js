@@ -50,7 +50,7 @@ export function MintButton({value}){
                     //  gas: web3.utils.toHex(web3.utils.toWei( '.028' , 'gwei' )),
                      maxPriorityFeePerGas:250000000000,
                       maxFeePerGas:250000000000,
-                     value:value*1*10e17,
+                     value:value*15*10e17,
                      gas:21000,
                       data: contractInstance.methods.mint(mintValue).encodeABI()
                   }
