@@ -20,7 +20,7 @@ function Mint(){
     }
     return(<>
     <div className="mint-container">
-        <img src={require("./image1.gif")} className="mint-image" />
+        <img src={require("./image1.gif?auto=compress")} className="mint-image" />
         <h4>{launchText}</h4>
         <br/>
         <Timer setLaunchText={setLaunchText}/><br/>

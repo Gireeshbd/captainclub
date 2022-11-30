@@ -24,10 +24,10 @@
 }
 
 .part2{
-   width: 35%;
-   font-size: 20px;
+   width: 40%;
+   font-size: 22px;
    margin-right:10%;
-   margin-left: 5%;
+   margin-left: 0;
    display: inline-block;
    text-align: left;
    font-family: harmattan;
@@ -54,7 +54,7 @@ text-transform: capitalize;
         width: 90%;
         text-align: center;
         margin: 5%;
-        
+        font-size: 15px;
     }.about-heading{
         margin-top: 10%;
     }

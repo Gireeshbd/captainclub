@@ -6,8 +6,8 @@ const About=()=>{
         <h2 className='about-heading' >ABOUT US</h2> 
         <br/>  
         <div className='part1' id='about'>
-        <div className='img1'><img src={require('./image2.gif')} className='allimg1'/><img src={require('./image3.gif')} className='allimg1'/></div>
-        <div className='img2'><img src={require('./image1.gif') } className='allimg' /><img src={require('./image4.gif') } className='allimg' /></div>
+        <div className='img1'><img src={require('./image2.gif?auto=compress')} className='allimg1'/><img src={require('./image3.gif?auto=compress')} className='allimg1'/></div>
+        <div className='img2'><img src={require('./image1.gif?auto=compress') } className='allimg' /><img src={require('./image4.gif?auto=compress') } className='allimg' /></div>
         
         </div>
        
